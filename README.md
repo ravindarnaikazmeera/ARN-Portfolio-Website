@@ -1,78 +1,68 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
-
-## Project info
-
-**URL**: https://lovable.dev/projects/a8eee7ea-1f87-4f5f-a998-843555a9fcd7
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/a8eee7ea-1f87-4f5f-a998-843555a9fcd7) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a8eee7ea-1f87-4f5f-a998-843555a9fcd7) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-=======
 # ARN-Portfolio-Website
-A sleek and dynamic personal portfolio website featuring smooth animations, dark mode, and a fully responsive design to provide an engaging user experience.
->>>>>>> 81756260dde232fdb4e2d1d50fb94f71d8929edc
+
+A sleek and dynamic **personal portfolio website** featuring smooth animations, dark mode, and a fully responsive design to provide an engaging user experience.
+
+---
+
+##  Project Overview
+
+This portfolio highlights my work, projects, and technical skills using modern web technologies. Key features include:  
+
+- Interactive UI components  
+- Responsive design for all devices  
+- Smooth animations and dark/light mode toggle  
+
+---
+
+##  Technologies Used
+
+This project is built with:  
+
+- **Vite** – Fast modern build tool  
+- **React** – Component-based UI development  
+- **TypeScript** – Type-safe JavaScript  
+- **Tailwind CSS** – Utility-first CSS framework  
+- **shadcn-ui** – Pre-built UI components  
+
+---
+
+##  Getting Started (Local Setup)
+
+You can run this project locally using your preferred IDE. Follow these steps:
+
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/ravindarnaikazmeera/ARN-Portfolio-Website.git
+
+# Step 2: Navigate to the project folder
+cd ARN-Portfolio-Website
+
+# Step 3: Install dependencies
+npm install
+
+# Step 4: Start the development server
+npm run dev
+
+---
+
+## ✨ Editing the Project
+
+You can edit this project in multiple ways:
+
+- **Locally** – Make changes in your IDE and push updates via Git.  
+- **Directly on GitHub** – Edit files in the repo and commit changes.  
+- **GitHub Codespaces** – Launch a Codespace and edit in the cloud.  
+
+---
+
+## 🌐 Deployment
+
+- Deploy easily using **Lovable** by clicking **Share → Publish**.  
+- Custom domains are supported via **Project > Settings > Domains → Connect Domain**.  
+
+---
+
+## 📝 About Me
+
+This portfolio showcases my projects, experience, and technical skills as a **B.Tech CSE student at IIT Jodhpur**. It’s designed to create a strong impression for internships, collaborations, and personal branding.
+
