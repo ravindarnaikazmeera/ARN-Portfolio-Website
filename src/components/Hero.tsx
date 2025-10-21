@@ -1,4 +1,5 @@
 import { Instagram, Linkedin, Twitter, Mail } from 'lucide-react';
+import portfolioprofile from '@/images/portfolioimage.jpeg'
 
 export const Hero = () => {
   return (
@@ -44,7 +45,7 @@ export const Hero = () => {
           <div className="hidden lg:block animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <div className="aspect-[3/4] bg-muted rounded-2xl overflow-hidden">
               <img
-                src="src\images\portfolioimage.jpeg"
+                src={portfolioprofile}
                 alt="Portrait"
                 className="w-full h-full object-cover"
               />
