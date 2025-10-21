@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Lovable project
 
 ## Project info
@@ -71,3 +72,7 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+=======
+# ARN-Portfolio-Website
+A sleek and dynamic personal portfolio website featuring smooth animations, dark mode, and a fully responsive design to provide an engaging user experience.
+>>>>>>> 81756260dde232fdb4e2d1d50fb94f71d8929edc
