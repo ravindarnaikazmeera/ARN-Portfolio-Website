@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Dark teal/navy theme with gold accents - matching reference design */
+    --background: 195 35% 15%;
+    --foreground: 0 0% 98%;
+
+    --card: 195 30% 18%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 195 30% 18%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 195 40% 12%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 195 25% 22%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 195 20% 25%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 38 45% 65%;
+    --accent-foreground: 195 40% 12%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 195 20% 25%;
+    --input: 195 20% 25%;
+    --ring: 38 45% 65%;
+
+    --radius: 1rem;
+
+    --section-bg: 195 32% 17%;
+  }
+
+  .dark {
+    /* Same dark theme for consistency */
+    --background: 195 35% 15%;
+    --foreground: 0 0% 98%;
+
+    --card: 195 30% 18%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 195 30% 18%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 195 40% 12%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 195 25% 22%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 195 20% 25%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 38 45% 65%;
+    --accent-foreground: 195 40% 12%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 195 20% 25%;
+    --input: 195 20% 25%;
+    --ring: 38 45% 65%;
+
+    --section-bg: 195 32% 17%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-24 md:py-32 px-6;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6 md:px-12 lg:px-16;
+  }
+
+  .gradient-text {
+    @apply text-accent;
+  }
+
+  .hero-gradient {
+    @apply bg-[hsl(var(--background))];
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-2xl hover:shadow-accent/5 hover:-translate-y-1;
+  }
+
+  .accent-glow {
+    @apply transition-all duration-300;
+  }
+
+  .section-accent-line {
+    @apply w-16 h-1 bg-accent mx-auto mb-6;
+  }
+}
