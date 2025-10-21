@@ -46,7 +46,7 @@ npm run dev
 
 ---
 
-## ✨ Editing the Project
+##  Editing the Project
 
 You can edit this project in multiple ways:
 - Locally – Make changes in your IDE and push updates via Git.
@@ -55,7 +55,7 @@ You can edit this project in multiple ways:
 
 ---
 
-## 📝 About Me
+##  About Me
 
 This portfolio showcases my projects, experience, and technical skills as a **B.Tech CSE student at IIT Jodhpur**.
 
