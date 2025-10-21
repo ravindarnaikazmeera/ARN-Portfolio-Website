@@ -43,4 +43,18 @@ npm install
 # Step 4: Start the development server
 npm run dev
 
+---
 
+## ✨ Editing the Project
+
+You can edit this project in multiple ways:
+
+- **Locally** – Make changes in your IDE and push updates via Git.  
+- **Directly on GitHub** – Edit files in the repository and commit changes.  
+- **GitHub Codespaces** – Launch a Codespace and edit in the cloud.
+
+---
+
+## 📝 About Me
+
+This portfolio showcases my projects, experience, and technical skills as a **B.Tech CSE student at IIT Jodhpur**. It’s designed to create a strong impression for internships, collaborations, and personal branding.
