@@ -1,6 +1,6 @@
 import { Card } from '@/components/ui/card';
 import internproLogo from '@/images/internprologo.jpeg';
-import deloittelogo from '@/images/deloitteLogo.jpg';
+import deloittejobsimulation from '@/images/deloitteLogo.jpg';
 import iitj from '@/images/iitjlogonew.jpg';
 import varchas from '@/images/varchaslogo.jpeg';
 
@@ -15,7 +15,7 @@ export const Experience = () => {
       type: 'Part-Time',
     },
     {
-      logo: deloittelogo,
+      logo: deloittejobsimulation,
       position: 'Data Analytics Virtual Experience (Deloitte via Forage)',
       company: "Deloitte",
       location: 'Remote (Forage)',
