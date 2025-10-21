@@ -45,15 +45,17 @@ npm run dev
 
 ---
 
+
 ## ✨ Editing the Project
 
 > You can edit this project in multiple ways:
 
 - **Locally** – Make changes in your IDE and push updates via Git.  
 - **Directly on GitHub** – Edit files in the repository and commit changes.  
-- **GitHub Codespaces** – Launch a Codespace and edit in the cloud.  
+- **GitHub Codespaces** – Launch a Codespace and edit in the cloud.
 
 ---
+
 
 ## 📝 About Me
 
