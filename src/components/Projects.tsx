@@ -25,19 +25,19 @@ export const Projects = () => {
     },
     {
       title: 'Portfolio Website',
-      description: 'Modern portfolio template with smooth animations, dark mode, and responsive design.',
+      description: 'A sleek and dynamic personal portfolio website featuring smooth animations, dark mode, and a fully responsive design to provide an engaging user experience.',
       image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80',
-      tags: ['React', 'Framer Motion', 'CSS', 'Vite'],
-      liveUrl: '#',
-      githubUrl: '#',
+      tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'shadcn-ui'],
+      liveUrl: 'https://arn-portfolio-website-wj3p.vercel.app/',
+      githubUrl: 'https://github.com/ravindarnaikazmeera/ARN-Portfolio-Website.git',
     },
     {
       title: 'Tenzies Game',
-      description: 'Real-time weather application with location search, forecasts, and interactive maps.',
+      description: 'A fun and interactive dice game built with React.js, where players roll dice until all show the same number. Each roll can be selectively held, making it a mix of luck and strategy.',
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&q=80',
-      tags: ['Vue.js', 'APIs', 'Chart.js', 'Sass'],
-      liveUrl: '#',
-      githubUrl: '#',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      liveUrl: 'https://tenzie-game-gules.vercel.app/',
+      githubUrl: 'https://github.com/ravindarnaikazmeera/Tenzie-Game.git',
     },
     {
       title: 'Cosmo Calculator',
@@ -49,16 +49,16 @@ export const Projects = () => {
     },
     {
       title: 'Fitness Tracker',
-      description: 'Workout logging app with progress charts, exercise library, and personalized goals.',
+      description: 'Working on it',
       image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80',
-      tags: ['React Native', 'Node.js', 'MongoDB', 'Express'],
+      tags: ['', '', '', ''],
       liveUrl: '#',
       githubUrl: '#',
     },
   ];
 
   return (
-    <section id="projects" className="section-padding bg-section-bg">
+    <section id="Projects" className="section-padding bg-section-bg">
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">

@@ -1,7 +1,5 @@
 import { Card } from '@/components/ui/card';
 import internproLogo from '@/images/internprologo.jpeg';
-// import deloittejobsimulation from '@/images/deloittee.jpg';
-// import deloittejobsimulation from '@/images/deloittee.jpg';
 import deloittejobsimulation from '@/images/deloittee.jpg';
 
 import iitj from '@/images/iitjlogonew.jpg';

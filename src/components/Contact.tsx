@@ -41,7 +41,7 @@ export const Contact = () => {
           <div className="grid md:grid-cols-2 gap-6">
             <Card className="p-10 bg-card border-border card-hover animate-fade-in-up text-center">
               <Globe size={36} className="text-accent mx-auto mb-4" strokeWidth={1.5} />
-              <p className="text-lg text-foreground">dribbble.com/example</p>
+              <p className="text-lg text-foreground">https://arn-portfolio-website-wj3p.vercel.app/</p>
             </Card>
             <Card className="p-10 bg-card border-border card-hover animate-fade-in-up text-center" style={{ animationDelay: '0.1s' }}>
               <Mail size={36} className="text-accent mx-auto mb-4" strokeWidth={1.5} />

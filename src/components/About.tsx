@@ -45,7 +45,10 @@ export const About = () => {
               size="lg"
               className="border-accent text-accent hover:bg-accent hover:text-primary text-base px-8 py-6 rounded-full"
             >
+              {/* Download Resume */}
+            <a href="public\IITJ-B22CS017-Azmeera Ravindar Naik.pdf" download>
               Download Resume
+            </a>
             </Button>
           </div>
         </div>
